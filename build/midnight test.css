@@ -16,7 +16,7 @@
 
 body {
     /* font, change to '' for default discord font */
-    --font: 'figtree';
+    --font: 'Lexend';
     font-weight: 400 /* normal text font weight. DOES NOT AFFECT BOLD TEXT */;
 
     /* sizes */
