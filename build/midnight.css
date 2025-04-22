@@ -1687,3 +1687,6 @@ body {
     }
 }
 
+.button__201d5:is([aria-label="Send a gift"]) {
+  display: none;
+}
