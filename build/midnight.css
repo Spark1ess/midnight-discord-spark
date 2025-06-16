@@ -1289,7 +1289,7 @@ body {
     initial-value: custom;
 }
 
-@container body style(--custom-dms-icon: custom) {
+@container body style(--custom-dms-icon: hide) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 > svg {
         display: none;
     }
@@ -1689,4 +1689,11 @@ body {
 
 .button__201d5:is([aria-label="Send a gift"]) {
   display: none;
+}
+.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_dcc7a4)) {
+    background-image: url('https://i.imgur.com/PWaAlCP.png');
+    background-color: transparent !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
