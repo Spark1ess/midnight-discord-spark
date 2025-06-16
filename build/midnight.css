@@ -1289,7 +1289,7 @@ body {
     initial-value: custom;
 }
 
-@container body style(--custom-dms-icon: custom) {
+@container body style(--custom-dms-icon: hide) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 > svg {
         display: none;
     }
